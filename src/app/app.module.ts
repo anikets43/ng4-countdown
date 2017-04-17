@@ -4,17 +4,20 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { CountdownComponent } from './countdown/countdown.component';
+import { CountdownService } from './countdown/countdown.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CountdownComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [CountdownService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
