@@ -1,6 +1,6 @@
 .default-countdown-timer{
     border: 1px solid #ddd;
-    color: #3c763d;
+    color: #ffffff;
     background-color: transparent;
     padding: 10px 15px;
     margin-bottom: 20px;
@@ -8,19 +8,19 @@
     display: inline-block;
 }
 .bootstrap-countdown-timer {
-    color: #3c763d;
-    background-color: #dff0d8;
-    border-color: #d6e9c6;
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #ffffff;
     padding: 10px 15px;
     margin-bottom: 20px;
-    border: 1px solid #d6e9c6;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     display: inline-block;
 }
 .material-countdown-timer{
-    color: #3c763d;
-    background-color: #dff0d8;
-    border-color: #d6e9c6;
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
     padding: 10px 15px;
     margin-bottom: 20px;
     border: 1px solid transparent;
